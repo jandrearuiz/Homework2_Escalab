@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  text-align: center;
+  color: var(--c-white);
+  font-size: 2rem;
+  margin: 0;
+}
+
+p {
+  margin: 40px 0;
+  text-align: justify;
+  line-height: 1.5;
+  color: var(--c-four);
+  font-size: 1.5rem;
+}

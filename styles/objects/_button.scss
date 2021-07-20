@@ -1,0 +1,17 @@
+.button {
+  padding: 20px 50px;
+  background: var(--c-five);
+  align-self: center;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  border: transparent;
+  border-radius: 20px;
+  box-shadow: 1px 1px 2px 2px black;
+  transition: all .5s ease;
+
+  &:hover {
+    background: radial-gradient(circle, var(--c-six) 0%, var(--c-seven) 100%);
+    color: black;
+  }
+}
